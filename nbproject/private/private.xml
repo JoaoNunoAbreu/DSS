@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/Users/joaonunoabreu/Desktop/DSS-master/src/presentation/music_vid.java</file>
+            <file>file:/Users/joaonunoabreu/Desktop/DSS-master/src/business/Video.java</file>
+            <file>file:/Users/joaonunoabreu/Desktop/DSS-master/src/business/Playlist.java</file>
+            <file>file:/Users/joaonunoabreu/Desktop/DSS-master/src/data/criaTabelas.java</file>
+            <file>file:/Users/joaonunoabreu/Desktop/DSS-master/src/data/Connect.java</file>
+            <file>file:/Users/joaonunoabreu/Desktop/DSS-master/src/data/PlaylistDAO.java</file>
+            <file>file:/Users/joaonunoabreu/Desktop/DSS-master/src/business/MediaCenter_Facade.java</file>
+            <file>file:/Users/joaonunoabreu/Desktop/DSS-master/src/presentation/Playlists.java</file>
+            <file>file:/Users/joaonunoabreu/Desktop/DSS-master/src/presentation/MenuPlaylist.java</file>
+            <file>file:/Users/joaonunoabreu/Desktop/DSS-master/src/presentation/MediaCenterApp.java</file>
+            <file>file:/Users/joaonunoabreu/Desktop/DSS-master/src/presentation/MainPage.java</file>
+            <file>file:/Users/joaonunoabreu/Desktop/DSS-master/src/business/Musica.java</file>
+            <file>file:/Users/joaonunoabreu/Desktop/DSS-master/src/presentation/EditarConta.java</file>
+            <file>file:/Users/joaonunoabreu/Desktop/DSS-master/src/presentation/AfterLogin.java</file>
+            <file>file:/Users/joaonunoabreu/Desktop/DSS-master/src/data/BibGeralDAO.java</file>
+            <file>file:/Users/joaonunoabreu/Desktop/DSS-master/src/data/ResidenteDAO.java</file>
+            <file>file:/Users/joaonunoabreu/Desktop/DSS-master/src/business/Media.java</file>
+            <file>file:/Users/joaonunoabreu/Desktop/DSS-master/src/presentation/README.md</file>
+            <file>file:/Users/joaonunoabreu/Desktop/DSS-master/src/presentation/EliminarConta.java</file>
+            <file>file:/Users/joaonunoabreu/Desktop/DSS-master/src/presentation/uploadmenu.java</file>
+        </group>
+    </open-files>
+</project-private>

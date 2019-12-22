@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="15e291a3-93ff-491b-aae1-940abc8df25a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/built-jar.properties" beforeDir="false" afterPath="$PROJECT_DIR$/build/built-jar.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/business/Media.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/business/Media.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/business/MediaCenter_Facade.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/business/MediaCenter_Facade.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/business/Musica.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/business/Musica.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/business/Playlist.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/business/Playlist.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/business/Video.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/business/Video.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/data/BibGeralDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/data/BibGeralDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/data/Connect.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/data/Connect.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/data/PlaylistDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/data/PlaylistDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/data/ResidenteDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/data/ResidenteDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/data/criaTabelas.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/data/criaTabelas.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/presentation/AfterLogin$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/presentation/AfterLogin$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/presentation/AfterLogin$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/presentation/AfterLogin$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/presentation/AfterLogin$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/presentation/AfterLogin$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/presentation/AfterLogin.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/presentation/AfterLogin.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/presentation/MediaCenterApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/presentation/MediaCenterApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/presentation/Playlists$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/presentation/Playlists$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/presentation/uploadmenu$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/presentation/uploadmenu$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/presentation/uploadmenu$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/presentation/uploadmenu$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/presentation/uploadmenu$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/presentation/uploadmenu$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/presentation/uploadmenu.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/presentation/uploadmenu.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modelobasedados.mwb" beforeDir="false" afterPath="$PROJECT_DIR$/modelobasedados.mwb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modelobasedados.mwb.bak" beforeDir="false" afterPath="$PROJECT_DIR$/modelobasedados.mwb.bak" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nbproject/private/private.xml" beforeDir="false" afterPath="$PROJECT_DIR$/nbproject/private/private.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nbproject/project.properties" beforeDir="false" afterPath="$PROJECT_DIR$/nbproject/project.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/business/Media.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/business/Media.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/business/MediaCenter_Facade.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/business/MediaCenter_Facade.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/business/Musica.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/business/Musica.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/business/Playlist.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/business/Playlist.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/business/Video.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/business/Video.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/BibGeralDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/BibGeralDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/Connect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/Connect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/PlaylistDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/PlaylistDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/ResidenteDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/ResidenteDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/criaTabelas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/criaTabelas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/presentation/AfterLogin.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/presentation/AfterLogin.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/presentation/AfterLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/presentation/AfterLogin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/presentation/MediaCenterApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/presentation/MediaCenterApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/presentation/Playlists.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/presentation/Playlists.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/presentation/Playlists.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/presentation/Playlists.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/presentation/uploadmenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/presentation/uploadmenu.java" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="mediacenter@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1V2id8HtUid3hAJvvrxIc4Vc5tg" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="allServicesViewState">
+      <serviceView>
+        <treeState>
+          <expand />
+          <select />
+        </treeState>
+      </serviceView>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="15e291a3-93ff-491b-aae1-940abc8df25a" name="Default Changelist" comment="" />
+      <created>1576457674922</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1576457674922</updated>
+      <workItem from="1576457676111" duration="2207000" />
+      <workItem from="1576505536402" duration="255000" />
+      <workItem from="1576532694689" duration="1681000" />
+      <workItem from="1576601777240" duration="2521000" />
+      <workItem from="1576978004243" duration="475000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
