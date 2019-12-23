@@ -1,6 +1,6 @@
 package data;
 
-import business.Playlist;
+import business.playlist.Playlist;
 
 import java.sql.*;
 import java.util.Collection;
@@ -9,7 +9,7 @@ import java.util.Map;
 import java.util.Set;
 import java.util.List;
 import java.util.ArrayList;
-import business.Media;
+import business.media.Media;
 
 public class PlaylistDAO implements Map<Integer, Playlist> {
 

@@ -1,6 +1,6 @@
 package data;
 
-import business.Residente;
+import business.utilizadores.Residente;
 
 import java.sql.*;
 import java.util.Collection;

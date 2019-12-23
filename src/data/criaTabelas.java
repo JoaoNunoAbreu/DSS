@@ -7,10 +7,6 @@ public class criaTabelas {
 
 
     private Connection conn;
-    
-    public void createSchema(){
-        Connect.createSchema();
-    }
 
     public void criartabelaResidente(){
         try{

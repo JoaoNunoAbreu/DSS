@@ -1,6 +1,6 @@
 package data;
 
-import business.Media;
+import business.media.Media;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
@@ -78,7 +78,7 @@ public class BibGeralDAO implements Map<Integer, Media> {
     }
 
     public Integer codMedia(Object value) {
-        Media m= (Media) value;
+        Media m = (Media) value;
        
         try {
             conn = Connect.connect();

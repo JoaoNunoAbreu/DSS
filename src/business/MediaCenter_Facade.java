@@ -1,5 +1,8 @@
 package business;
 
+import business.media.Media;
+import business.playlist.Playlist;
+import business.utilizadores.Residente;
 import business.exceptions.ExtensionInvalidException;
 import business.exceptions.PasswordIncorretaException;
 import business.exceptions.UserIncorretoException;
@@ -63,7 +66,6 @@ public class MediaCenter_Facade{
             }
         }
     }
-    
 
     public void login (String email,String password,String tipo) throws UserIncorretoException, PasswordIncorretaException {
         if (this.confirmaLogin(email,password,tipo)) {

@@ -5,6 +5,7 @@
  */
 package presentation;
 import business.MediaCenter_Facade;
+import business.exceptions.ExtensionInvalidException;
 import java.io.File;
 import java.io.IOException;
 import java.nio.file.FileSystem;
@@ -13,6 +14,8 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.List;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 import javax.swing.JFileChooser;
 import javax.swing.JOptionPane;
 import javax.swing.table.DefaultTableModel;
@@ -212,19 +215,17 @@ public class download extends javax.swing.JDialog {
     }//GEN-LAST:event_jButton1ActionPerformed
 
     private void jLabel1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel1MouseClicked
-        // TODO add your handling code here:
-         int row = tabela.getSelectedRow();
-        String nome = tabela.getModel().getValueAt(row,0).toString();
-        String src = tabela.getModel().getValueAt(row,3).toString();
-        Path target = Paths.get(lb.getText()+"/"+nome+".mp3");
-        Path sourceDirectory = Paths.get(src);
-        
-        System.out.println("src = " + sourceDirectory.toString());
-        System.out.println("target = " + target);
-        
+
         try {
+            int row = tabela.getSelectedRow();
+            String nome = tabela.getModel().getValueAt(row,0).toString();
+            String autor = tabela.getModel().getValueAt(row,1).toString();
+            String src = tabela.getModel().getValueAt(row,3).toString();
+            Path target = Paths.get(lb.getText()+"/"+nome+"."+autor+"."+mf.validaMedia(src));
+            Path sourceDirectory = Paths.get(src);
+        
             Files.copy(sourceDirectory, target);
-        } catch (IOException e) {
+        } catch (IOException | ExtensionInvalidException e) {
              JOptionPane.showMessageDialog(null,"Ficheiro já existe!");
         }
     }//GEN-LAST:event_jLabel1MouseClicked

@@ -267,6 +267,7 @@ public class uploadmenu extends javax.swing.JDialog {
         String author=autor.getText();
         String genre=genero.getText();
         String tipo=null;
+        Path target;
         
         
         if (autor.getText().equals("") || nome.getText().equals("") || genero.getText().equals("") || lb.getText().equals("")){
@@ -280,13 +281,12 @@ public class uploadmenu extends javax.swing.JDialog {
         } catch (ExtensionInvalidException ex) {
             Logger.getLogger(uploadmenu.class.getName()).log(Level.SEVERE, null, ex);
         }
-        Path target = Paths.get(new File("").getAbsolutePath() + "/musica/"+name+"."+author+".mp3");
+        if(tipo.equals("M")) target = Paths.get(new File("").getAbsolutePath() + "/media/"+name+"."+author+".mp3");
+        else target = Paths.get(new File("").getAbsolutePath() + "/media/"+name+"."+author+".mp4");
         //directory where file will be copied
         String src=lb.getText();
         Path sourceDirectory = Paths.get(src);
         
-        
-
         //copy source to target using Files Class
         try {
             Files.copy(sourceDirectory, target);

@@ -42,13 +42,6 @@ public class MainPage extends javax.swing.JDialog {
         jLabel7 = new javax.swing.JLabel();
         login = new javax.swing.JButton();
         jLabel1 = new javax.swing.JLabel();
-        try {
-            email =(java.awt.TextField)java.beans.Beans.instantiate(getClass().getClassLoader(), "presentation.MainPage_textField1");
-        } catch (ClassNotFoundException e) {
-            e.printStackTrace();
-        } catch (java.io.IOException e) {
-            e.printStackTrace();
-        }
         password = new javax.swing.JPasswordField();
         roles = new javax.swing.JComboBox<>();
         jLabel8 = new javax.swing.JLabel();
@@ -56,6 +49,7 @@ public class MainPage extends javax.swing.JDialog {
         jLabel4 = new javax.swing.JLabel();
         jLabel10 = new javax.swing.JLabel();
         jLabel3 = new javax.swing.JLabel();
+        email = new javax.swing.JTextField();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
@@ -105,7 +99,7 @@ public class MainPage extends javax.swing.JDialog {
             }
         });
         jPanel1.add(login);
-        login.setBounds(240, 640, 110, 35);
+        login.setBounds(240, 640, 110, 36);
 
         jLabel1.setBackground(new java.awt.Color(0, 0, 0));
         jLabel1.setFont(new java.awt.Font("SansSerif", 0, 16)); // NOI18N
@@ -113,21 +107,13 @@ public class MainPage extends javax.swing.JDialog {
         jPanel1.add(jLabel1);
         jLabel1.setBounds(210, 200, 160, 45);
 
-        email.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                emailActionPerformed(evt);
-            }
-        });
-        jPanel1.add(email);
-        email.setBounds(170, 260, 240, 30);
-
         password.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 passwordActionPerformed(evt);
             }
         });
         jPanel1.add(password);
-        password.setBounds(170, 430, 240, 26);
+        password.setBounds(170, 430, 240, 22);
 
         roles.setFont(new java.awt.Font("Sitka Subheading", 2, 16)); // NOI18N
         roles.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "[escolha o seu estatututo]", "Admin", "Utilizador", "Convidado" }));
@@ -137,7 +123,7 @@ public class MainPage extends javax.swing.JDialog {
             }
         });
         jPanel1.add(roles);
-        roles.setBounds(180, 570, 230, 27);
+        roles.setBounds(180, 570, 230, 30);
 
         jLabel8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/mediacenter.png"))); // NOI18N
         jPanel1.add(jLabel8);
@@ -158,6 +144,8 @@ public class MainPage extends javax.swing.JDialog {
         jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/rank.png"))); // NOI18N
         jPanel1.add(jLabel3);
         jLabel3.setBounds(420, 560, 51, 50);
+        jPanel1.add(email);
+        email.setBounds(170, 260, 240, 24);
 
         getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 600, 780));
 
@@ -234,7 +222,7 @@ public class MainPage extends javax.swing.JDialog {
 
     MediaCenter_Facade mf;
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private java.awt.TextField email;
+    private javax.swing.JTextField email;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel10;
     private javax.swing.JLabel jLabel2;
